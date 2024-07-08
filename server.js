@@ -10,8 +10,8 @@ const signin = require('./controllers/signin');
 const profile = require('./controllers/profile');
 const image = require('./controllers/image');
 
-const supabaseUrl = 'https://swevciesjgaldunszmle.supabase.co';
-const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InN3ZXZjaWVzamdhbGR1bnN6bWxlIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MTc5NDM2MjUsImV4cCI6MjAzMzUxOTYyNX0.4ZUhR5AQ28yGEgFhlE9GWLKpRL5dX5cj3tGsI_ow4Ic'; // Replace with your Supabase public key
+const supabaseUrl = '';
+const supabaseKey = ''; // Replace with your Supabase public key
 
 const supabase = createClient(supabaseUrl, supabaseKey);
 
@@ -19,9 +19,9 @@ const supabase = createClient(supabaseUrl, supabaseKey);
 const db = knex({
     client: 'pg',
     connection: {
-        host: 'aws-0-ca-central-1.pooler.supabase.com',
-        user: 'BrandonFyall',
-        password: 'EwwBrotherWhatsThat?!',
+        host: '',
+        user: '',
+        password: '',
         database: 'postgres',
     }
 });
